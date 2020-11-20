@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Bank</title>
+    <link rel="icon" href="imgs\favicon.ico" type="image-png">
+    <link rel="stylesheet" href="css\bootstrap.min.css">
+    <link rel="stylesheet" href="css\fontawesome.min.css">
+    <link rel="stylesheet" href="css\all.min.css">
+    <link rel="stylesheet" href="css\style.css">
+</head>
+
+<body>
+    <!-- start upperBar -->
+    <section class="upper-bar">
+        <div class="container">
+            <div class="row">
+                <div class="right-side col-md-4 col-xs-4">
+                    <h6>
+                        <span>
+                            عربي
+                        </span>
+                        EN
+                    </h6>
+                </div>
+                <div class="center-side col-md-4 col-xs-4">
+                    <span>
+                        <a href="#"> <i class="fab fa-facebook-f"></i></a>
+                        <a href="#"> <i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"> <i class="fab fa-whatsapp"></i></a>
+                    </span>
+                </div>
+                <div class="left-side col-md-4 col-xs-4">
+                    <a class="sign-up" href="https://aliabdelbaky.github.io/Blood-Bank/SignUp" style="color: #FFF; text-decoration: none;">إنشاء حساب جديد</a>
+                    <span></span>
+                    <a href="https://aliabdelbaky.github.io/Blood-Bank/Log-In" style="color: #ffffff; text-decoration: none;"> الدخول</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end upperBar -->
+    <!-- start navBar -->
+    <nav id="navbar-example2 " class="navbar navbar-expand-md navbar-light bg-light sticky-top" dir="rtl">
+        <a class="navbar-brand" href="#">
+            <img src="imgs\logo.png" alt="##">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="nav nav-pills ml-auto" style="border-radius:0rem">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://aliabdelbaky.github.io/Blood-Bank/">الرئيسية</a>
+                </li>
+                <span></span>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://aliabdelbaky.github.io/Blood-Bank/About">عن بنك الدم</a>
+                </li>
+                <span></span>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://aliabdelbaky.github.io/Blood-Bank/ArticleDeatails">المقالات</a>
+                </li>
+                <span></span>
+                <li class="nav-item">
+                    <a class="nav-link active" href="https://aliabdelbaky.github.io/Blood-Bank/DonationOrders">طلبات
+                        التبرع</a>
+                </li>
+                <span></span>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://aliabdelbaky.github.io/Blood-Bank/About">من نحن</a>
+                </li>
+                <span></span>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://aliabdelbaky.github.io/Blood-Bank/CallUs">اتصل بنا</a>
+                </li>
+            </ul>
+            <button style="color: #FFF; border: 1px solid #2d3e50; background-color: #2d3e50;"
+                class="my-2 my-sm-0 other-button" type="submit"><img src="imgs\about - button.png" alt="">
+                <span> طلب تبرع </span>
+            </button>
+        </div>
+    </nav>
+    <!-- end navBar -->
+    <!-- start pageInfo -->
+    <section class="page-info">
+        <div class="container">
+            <div class="text-right">
+                <a href="https://aliabdelbaky.github.io/Blood-Bank/">الرئيسية</a>
+                <span style="font-size: 20px;">/</span>
+                <a class="active" href="##">طلبات التبرع</a>
+            </div>
+        </div>
+    </section>
+    <!-- end pageInfo -->
+    <!-- start donation -->
+    <div class="donation-header donation-order-header ">
+        <div class="container">
+            <div class=" text-center">
+                <h2 style="margin-left: 0%;">طلبات التبرع</h2>
+                <hr>
+            </div>
+        </div>
+    </div>
+    <section class="donation text-center donation-order" id="Donation">
+        <hr class="donation-order-hr">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="form-group">
+                        <select class="form-control" id="exampleFormControlSelect1">
+                            <option selected disabled>اختر فصيلة الدم</option>
+                            <option>A+</option>
+                            <option>A-</option>
+                            <option>B+</option>
+                            <option>AB+</option>
+                            <option>AB-</option>
+                            <option>O</option>
+                            <option>O-</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="form-group">
+                        <select class="form-control one" id="exampleFormControlSelect1">
+                            <option selected disabled>اختر المدينة</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-1">
+                    <a href="##"><i class="fas fa-search"></i></a>
+                </div>
+                <div class="col-md-12 one">
+                    <span class="blood-kind"> +B</span>
+                    <ol>
+                        <li>
+                            <span>اسم الحالة: </span>احمد محمد احمد
+                        </li>
+                        <li>
+                            <span>مستشفى: </span>القصر العيني
+                        </li>
+                        <li>
+                            <span>المدينة: </span>المنصورة
+                        </li>
+                    </ol>
+                    <a class="Dbtn" href="https://aliabdelbaky.github.io/Blood-Bank/DonationOrdersInfo"
+                        class="my-2 my-sm-0">التفاصيل</a>
+                </div>
+                <div class="col-md-12 one">
+                    <span class="blood-kind"> +A</span>
+                    <ol>
+                        <li>
+                            <span>اسم الحالة: </span>احمد محمد احمد
+                        </li>
+                        <li>
+                            <span>مستشفى: </span>القصر العيني
+                        </li>
+                        <li>
+                            <span>المدينة: </span>المنصورة
+                        </li>
+                    </ol>
+                    <a class="Dbtn" href="https://aliabdelbaky.github.io/Blood-Bank/DonationOrdersInfo"
+                        class="my-2 my-sm-0">التفاصيل</a>
+                </div>
+                <div class="col-md-12 one">
+                    <span class="blood-kind two"> +AB</span>
+                    <ol>
+                        <li>
+                            <span>اسم الحالة: </span>احمد محمد احمد
+                        </li>
+                        <li>
+                            <span>مستشفى: </span>القصر العيني
+                        </li>
+                        <li>
+                            <span>المدينة: </span>المنصورة
+                        </li>
+                    </ol>
+                    <a class="Dbtn" href="https://aliabdelbaky.github.io/Blood-Bank/DonationOrdersInfo"
+                        class="my-2 my-sm-0">التفاصيل</a>
+                </div>
+                <div class="col-md-12 one">
+                    <span class="blood-kind"> -O</span>
+                    <ol>
+                        <li>
+                            <span>اسم الحالة: </span>احمد محمد احمد
+                        </li>
+                        <li>
+                            <span>مستشفى: </span>القصر العيني
+                        </li>
+                        <li>
+                            <span>المدينة: </span>المنصورة
+                        </li>
+                    </ol>
+                    <a class="Dbtn" href="https://aliabdelbaky.github.io/Blood-Bank/DonationOrdersInfo"
+                        class="my-2 my-sm-0">التفاصيل</a>
+                </div>
+                <div class="col-md-12 one">
+                    <span class="blood-kind"> +B</span>
+                    <ol>
+                        <li>
+                            <span>اسم الحالة: </span>احمد محمد احمد
+                        </li>
+                        <li>
+                            <span>مستشفى: </span>القصر العيني
+                        </li>
+                        <li>
+                            <span>المدينة: </span>المنصورة
+                        </li>
+                    </ol>
+                    <a class="Dbtn" href="https://aliabdelbaky.github.io/Blood-Bank/DonationOrdersInfo"
+                        class="my-2 my-sm-0">التفاصيل</a>
+                </div>
+                <div class="col-md-12 one">
+                    <span class="blood-kind"> +A</span>
+                    <ol>
+                        <li>
+                            <span>اسم الحالة: </span>احمد محمد احمد
+                        </li>
+                        <li>
+                            <span>مستشفى: </span>القصر العيني
+                        </li>
+                        <li>
+                            <span>المدينة: </span>المنصورة
+                        </li>
+                    </ol>
+                    <a class="Dbtn" href="https://aliabdelbaky.github.io/Blood-Bank/DonationOrdersInfo"
+                        class="my-2 my-sm-0">التفاصيل</a>
+                </div>
+                <div class="col-md-12 one">
+                    <span class="blood-kind two"> +AB</span>
+                    <ol>
+                        <li>
+                            <span>اسم الحالة: </span>احمد محمد احمد
+                        </li>
+                        <li>
+                            <span>مستشفى: </span>القصر العيني
+                        </li>
+                        <li>
+                            <span>المدينة: </span>المنصورة
+                        </li>
+                    </ol>
+                    <a class="Dbtn" href="https://aliabdelbaky.github.io/Blood-Bank/DonationOrdersInfo"
+                        class="my-2 my-sm-0">التفاصيل</a>
+                </div>
+                <div class="col-md-12 one">
+                    <span class="blood-kind"> -O</span>
+                    <ol>
+                        <li>
+                            <span>اسم الحالة: </span>احمد محمد احمد
+                        </li>
+                        <li>
+                            <span>مستشفى: </span>القصر العيني
+                        </li>
+                        <li>
+                            <span>المدينة: </span>المنصورة
+                        </li>
+                    </ol>
+                    <a class="Dbtn" href="https://aliabdelbaky.github.io/Blood-Bank/DonationOrdersInfo"
+                        class="my-2 my-sm-0">التفاصيل</a>
+                </div>
+                <nav aria-label="Page navigation " dir="ltr" style=" margin: auto; margin-top: 15px; ">
+                    <ul class="pagination">
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Previous">
+                                <span aria-hidden="true"><i class="fas fa-angle-left"
+                                        style="padding: 0px; float: none; margin: 0px; background: none;"></i></span>
+                            </a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">4</a></li>
+                        <li class="page-item"><a class="page-link" href="#">5</a></li>
+                        <li class="page-item"><a class="page-link" href="#">6</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Next">
+                                <span aria-hidden="true"><i class="fas fa-angle-right"
+                                        style="padding: 0px; float: none; margin: 0px; background: none;"></i></span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+    </section>
+    <!-- End donation -->
+    <!-- start footer -->
+    <section class="footer-one">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <ol>
+                        <li><img src="imgs\logo.png" alt=""></li>
+                        <li style="font-weight: bold;font-size: 20px;">بنك الدم</li>
+                        <li>
+                            هذا النص هو مثال لنص يمكن ان يتسبدل في نفس المساحة, لقد تم توليد النص في مولد العربي,
+                            حيث يمكن توليد هذا النص أو العديد من النصوص الاخرى. اضافة الي زيادة عدد الحروف التي
+                            يولدها التطبيق يطلع علي الصورة الحقيقية لتصميم الموقع
+                        </li>
+                    </ol>
+                </div>
+                <div class="col-md-4">
+                    <ol>
+                        <a href="https://aliabdelbaky.github.io/Blood-Bank/">
+                            <li class="one">الرئيسية</li>
+                        </a>
+                        <a href="https://aliabdelbaky.github.io/Blood-Bank/About">
+                            <li>عن بنك الدم</li>
+                        </a>
+                        <a href="https://aliabdelbaky.github.io/Blood-Bank/ArticleDeatails">
+                            <li>المقالات</li>
+                        </a>
+                        <a href="https://aliabdelbaky.github.io/Blood-Bank/DonationOrders">
+                            <li>طلبات التبرع</li>
+                        </a>
+                        <a href="https://aliabdelbaky.github.io/Blood-Bank/About">
+                            <li>من نحن</li>
+                        </a>
+                        <a href="https://aliabdelbaky.github.io/Blood-Bank/CallUs">
+                            <li>اتصل بنا</li>
+                        </a>
+                    </ol>
+                </div>
+                <div class="col-md-4">
+                    <ol>
+                        <li class="one marg">متوفر لدي</li>
+                        <a href="..">
+                            <li><img src="imgs\google1.png" alt="##"></li>
+                        </a>
+                        <a href="..">
+                            <li><img src="imgs\ios1.png" alt="##"></li>
+                        </a>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer-two">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <span class="icon">
+                        <a href="#"> <i class="fab fa-facebook-f"></i></a>
+                        <a href="#"> <i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"> <i class="fab fa-whatsapp"></i></a>
+                    </span>
+                </div>
+                <div class="col-md-6">
+                    <h6>جميع الحقوق محفوظة لـ <span style="color: #ae2934; ">بنك الدم</span> © 2020</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end footer -->
+    <!-- Script Files -->
+    <script src="js\jquery-3.4.1.min.js"></script>
+    <script src="js\popper.min.js"></script>
+    <script src="js\bootstrap.min.js"></script>
+    <script src="js\main.js"></script>
+</body>
+
+</html>

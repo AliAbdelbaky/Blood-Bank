@@ -1,0 +1,1954 @@
+/*
+first color => #2d3e50 ,
+second color => #ae2934 ,
+third color => #FFFFF ,
+author => Ali Abdelbaky
+*/
+@import url("https://fonts.googleapis.com/css?family=Tajawal&display=swap");
+body {
+  background-color: #fbfbfb;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Tajawal", sans-serif;
+}
+/* start upperBar */
+.upper-bar {
+  background-color: #2d3e50;
+  padding: 10px;
+}
+.upper-bar .right-side span {
+  color: #ae2934;
+  border-left: 1px solid #40556b;
+  margin-left: 5px;
+}
+.upper-bar .right-side h6 {
+  color: #5b758f;
+  float: right;
+  cursor: pointer;
+}
+.upper-bar .center-side {
+  text-align: center;
+}
+.upper-bar .center-side span a i {
+  color: #ffffff;
+  font-size: 20px;
+  margin-right: 15px;
+}
+.upper-bar .left-side {
+  font-size: 17px;
+}
+.upper-bar .left-side i {
+  color: #ffffff;
+  cursor: pointer;
+}
+.upper-bar .left-side span {
+  border-left: 1.5px solid #40556b;
+  margin: 0px 10px;
+}
+/* end upperBar */
+/* start navBar */
+.navbar {
+  padding: 0rem 1rem;
+  box-shadow: 0px 1px 9px rgba(166, 166, 166, 0.41);
+}
+.navbar .navbar-brand img {
+  float: right;
+  width: 50%;
+}
+.navbar ul li a {
+  font-size: 15px;
+  color: #40556a;
+  border-bottom: 1px solid #f9f9f9;
+  padding: 24px;
+  transition: all 0.2s ease-in-out;
+}
+.navbar ul li a:hover {
+  color: #e51d25;
+  border-bottom: 1px solid #e51d25;
+}
+.navbar .collapse .sign-up {
+  margin-left: 20px;
+  text-decoration: none;
+}
+.navbar a:nth-of-type(2) {
+  margin-left: 20px;
+  color: #2d3e50;
+  text-decoration: none;
+}
+.navbar .navBtn {
+  margin-left: unset;
+  color: #ffffff;
+  border: 1px solid #2d3e50;
+  background-color: #edf2f7;
+  padding: 0.25rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+}
+.navbar ul span {
+  border-left: 1.5px solid #f1f1f1;
+  margin: 0px 6px;
+}
+.nav-pills .nav-link {
+  border-radius: 0em;
+}
+.navbar .nav-pills .nav-link.active {
+  color: #e51d25;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e51d25;
+}
+.navbar ul li hr {
+  color: #ae2934;
+}
+.carousel-indicators li {
+  width: 16px;
+  height: 15px;
+  border-radius: 50%;
+  border: 1px solid #c1acad;
+}
+.carousel-indicators .active {
+  opacity: 1;
+  border-radius: 50%;
+  border: 1px solid #ae2934;
+}
+.carousel-caption {
+  text-align: right;
+  right: 7%;
+  top: 35%;
+  left: 15%;
+}
+.carousel-caption h5 {
+  color: #ae2934;
+  font-size: 34px;
+  font-weight: bold;
+}
+.carousel-caption p {
+  color: #2d3e50;
+  max-width: 470px;
+  font-size: 25px;
+  left: 56%;
+  position: relative;
+}
+.carousel-caption a {
+  color: #ffffff;
+  border: 1px solid #2d3e50;
+  background-color: #2d3e50;
+  padding: 3px 63px;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  font-size: 20px;
+  text-decoration: none;
+}
+/* end navBar */
+/* Start About us */
+.about-us {
+  background-image: url(../imgs/about.png);
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  padding: 98px;
+}
+.about-us span {
+  font-weight: bold;
+  color: #ae2934;
+}
+.about-us p {
+  font-size: 22px;
+  color: #2d3e50;
+  text-align: center;
+  position: relative;
+  left: 70px;
+  max-width: 500px;
+}
+/* End About us */
+/* Start Articles */
+.article {
+  margin-top: 50px;
+}
+.article h2 {
+  text-align: right;
+  font-weight: bold;
+  color: #ae2934;
+}
+.article hr {
+  width: 130px;
+  float: right;
+  margin-top: 0rem;
+  border: 1px solid #ae2934;
+  background-color: #ae2934;
+}
+/* End Articles */
+/* start donation */
+.donation-header {
+  top: 90px;
+  position: relative;
+}
+.donation-header h2 {
+  color: #ae2934;
+  font-weight: bold;
+  margin-left: 12%;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.donation-header hr {
+  width: 170px;
+  border: 1px solid #ae2934;
+  background-color: #ae2934;
+}
+.donation {
+  background-color: #f5f5f5;
+  margin-top: 100px;
+  padding-bottom: 30px;
+}
+.donation hr {
+  position: relative;
+  top: -10px;
+}
+.donation .form-group {
+  max-width: 332px;
+  margin: 0px 247px 0px 0px;
+}
+.donation .form-group .form-control {
+  height: calc(2.5em + 0.75rem + -10px);
+  width: 270px;
+  font-size: 19px;
+  border-radius: 2.25rem;
+}
+.donation .form-group .one {
+  margin-right: -146px;
+  margin-top: 0px;
+}
+.donation i {
+  padding: 17px;
+  float: right;
+  background-color: #ffff;
+  border-radius: 50%;
+  margin-right: -70px;
+  cursor: pointer;
+}
+.donation .one {
+  height: calc(2.5em + 0.75rem + 70px);
+  font-size: 30px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  border-top-right-radius: 7.25rem;
+  border-bottom-right-radius: 7.25rem;
+  background-color: #fff;
+}
+.donation .one .blood-kind {
+  padding: 23px 39px;
+  font-size: 68px;
+  position: relative;
+  background-color: #f5f5f5;
+  float: right;
+  margin-top: 4px;
+  margin-right: -1%;
+  border-radius: 50%;
+}
+.donation .one .two {
+  padding: 24px 20px;
+}
+.donation ol {
+  list-style: none;
+  font-size: 22px;
+  text-align: right;
+  line-height: 50px;
+  position: relative;
+  right: 1%;
+  top: 5%;
+}
+.donation .one ol li span {
+  font-size: 22px;
+  color: #2d3e50;
+  font-weight: bold;
+  margin-left: 20px;
+  text-align: right;
+}
+.donation .Dbtn {
+  font-size: 19px;
+  position: relative;
+  float: left;
+  top: -117px;
+  padding: 14px 62px;
+  left: 2%;
+  border-radius: 1rem;
+  border: none;
+  background-color: #f5f5f5;
+  color: #2d3e50;
+  text-decoration: none;
+  box-shadow: 5px 4px 7px 0px rgba(164, 164, 164, 0.5);
+  transition: all 0.3s ease-in-out;
+}
+.donation .Dbtn:hover {
+  color: #fff;
+  background-color: #2d3e50;
+}
+.donation .primary-button {
+  margin: auto;
+  font-size: 19px;
+  top: 0px;
+  padding: 14px 62px;
+  border-radius: 1rem;
+  border: none;
+  background-color: #f5f5f5;
+  color: #2d3e50;
+  text-decoration: none;
+  box-shadow: 2px 1px 7px 2px rgba(164, 164, 164, 0.5);
+  transition: all 0.3s ease-in-out;
+}
+.donation .primary-button:hover {
+  color: #fff;
+  background-color: #2d3e50;
+}
+/* end donation */
+/* start call-us */
+.call-us {
+  display: flex;
+  text-align: center;
+  justify-content: right;
+  background-image: url(../imgs/call.jpg);
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 64px;
+  margin-top: 30px;
+}
+.call-us .text {
+  float: right;
+}
+.call-us h2 {
+  color: #ae2934;
+  font-weight: bold;
+}
+.call-us hr {
+  width: 104px;
+  border: 1px solid #ae2934;
+  background-color: #ae2934;
+}
+.call-us h5 {
+  color: #2d3e50;
+  margin: 45px 0px;
+}
+.call-us .whats-app {
+  background-color: #3ab54a;
+  border-radius: 4rem;
+  width: 76%;
+  height: 78px;
+  margin: auto;
+}
+.call-us .whats-app h6 {
+  float: right;
+  font-size: 38px;
+  position: relative;
+  top: 17px;
+  right: 6%;
+  color: #fff;
+}
+.call-us .whats-app img {
+  width: 80px;
+  position: relative;
+  right: 36px;
+  top: 0px;
+}
+/* End call-us */
+/* start bloodBank-app */
+.bloodBank-app {
+  display: flex;
+  text-align: center;
+  justify-content: right;
+  background-image: url(../imgs/BG-phone.png);
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 36px;
+  margin-top: -12px;
+}
+.bloodBank-app .text {
+  text-align: right;
+  top: 22%;
+  position: relative;
+}
+.bloodBank-app a img {
+  width: 30%;
+}
+.bloodBank-app .text h2 {
+  color: #2d3e50;
+  font-weight: 600;
+}
+.bloodBank-app .text p {
+  color: #2d3e50;
+  font-size: 20px;
+  margin-top: 24px;
+  line-height: 2.5;
+}
+/* end bloodBank-app */
+/* start footer-one */
+.footer-one {
+  background-color: #1a1f25;
+  padding: 50px 20px 5px;
+}
+.footer-one ol {
+  color: #ffff;
+  list-style: none;
+  text-align: right;
+}
+.footer-one ol a {
+  color: #8d8d8d;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+.footer-one ol a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.footer-one ol li {
+  margin-bottom: 25px;
+}
+.footer-one ol .one {
+  color: #ae2934;
+  font-weight: bold;
+}
+.footer-one ol .marg {
+  margin-bottom: 94px;
+}
+/* end footer-one */
+/* start footer-two */
+.footer-two {
+  background-color: #14171c;
+  padding: 10px;
+  text-align: center;
+}
+.footer-two h6 {
+  color: #fff;
+  float: right;
+}
+.footer-two a i {
+  color: #ffffff;
+  font-size: 20px;
+  margin-right: 15px;
+}
+.footer-two .icon {
+  float: right;
+}
+/* end footer-two */
+/* start navbar of the other pages */
+.navbar .other-button {
+  margin-left: auto;
+  max-height: 40px;
+  max-width: 186px;
+  line-height: 2;
+  font-weight: 600;
+  padding: 2px 0px;
+}
+
+.navbar .other-button img {
+  width: 121px;
+  float: right;
+  bottom: 16px;
+  left: 19%;
+  position: relative;
+}
+.navbar .other-button span {
+  position: relative;
+  left: 21%;
+}
+/* End navbar of the other pages */
+/* start pageInfo  */
+.page-info {
+  background-color: #fff;
+  border: 1px solid #f0f0f0;
+  padding: 17px;
+  margin: 2% 13%;
+  text-decoration: none;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 1px rgba(166, 166, 166, 0.41);
+}
+.page-info a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #c3c1c1;
+  transition: all 0.2s ease-in-out;
+}
+.page-info a:hover {
+  color: #2d3e50;
+}
+.page-info .active {
+  color: #2d3e50;
+}
+/* end pageInfo  */
+/* start about-us-article */
+.aboutUs-article {
+  background-color: #fff;
+  border: 1px solid #f0f0f0;
+  margin: 2% 13%;
+  padding: 20px 20px 44px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 1px rgba(166, 166, 166, 0.41);
+}
+.aboutUs-article p {
+  color: #2d3e50;
+  font-size: 29px;
+}
+/* end about-us-article */
+/* start sign-in */
+.sign-in {
+  background-color: #fff;
+  border: 1px solid #f0f0f0;
+  margin: 2% 13%;
+  padding: 0px 109px 70px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 1px rgba(166, 166, 166, 0.41);
+}
+.sign-in form {
+  margin-top: 50px;
+}
+.sign-in form .rememper {
+  margin-right: 20px;
+  font-size: 20px;
+}
+.sign-in form .pass {
+  float: left;
+}
+.sign-in form .pass img {
+  width: 23px;
+  float: right;
+  margin-left: 4px;
+}
+.sign-in form button {
+  margin-top: 30px;
+  width: 49%;
+  color: #fff;
+  font-size: 19px;
+}
+.sign-in form button:nth-of-type(1) {
+  background-color: #3ab54a;
+  margin-left: 1%;
+  transition: all 0.3s ease-in-out;
+}
+.sign-in form button:nth-of-type(1):hover {
+  color: #fff;
+  background-color: #2f8d3b;
+}
+.sign-in form button:nth-of-type(2) {
+  background-color: #2d3e50;
+  transition: all 0.3s ease-in-out;
+}
+.sign-in form button:nth-of-type(2):hover {
+  color: #ffff;
+  background-color: #1f2a35;
+}
+.sign-in form .form-control {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 2rem 0.75rem;
+  font-size: 20px;
+  color: #2d3e50;
+  background-color: #fbfbfb;
+}
+/* End sign-in */
+/* start other-donation*/
+.donation-order-header {
+  top: 43px;
+  padding: 17px;
+  margin: 2% 13%;
+}
+.donation-order {
+  margin-top: 0px;
+  padding: 17px;
+  margin: 2% 13%;
+  border: 1px solid #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 1px rgba(166, 166, 166, 0.41);
+}
+.donation-order .donation-order-hr {
+  position: relative;
+  top: -55px;
+}
+.donation-order .pagination .page-item a {
+  margin: 0px 0px 0px 5px;
+  font-size: 18px;
+  padding: 15px 24px;
+  color: #1a1f25;
+  transition: all 0.3s ease-in-out;
+}
+.donation-order .pagination .page-item a:hover {
+  background-color: #1a1f25;
+  color: #fff;
+}
+/* End other-donation*/
+/* Start CallUS */
+.call-US {
+  margin: 2% 13%;
+}
+.call-US .card-one {
+  background-color: #fff;
+  box-shadow: 5px 5px 10px 1px rgba(166, 166, 166, 0.41);
+}
+.call-US .card-one .card-header {
+  color: #fff;
+  background-color: #2d3e50;
+  font-size: 20px;
+}
+.call-US .card-one .body ul {
+  text-align: right;
+  list-style: none;
+  margin-top: 5%;
+  color: #2d3e50;
+  font-size: 20px;
+  line-height: 50px;
+}
+.call-US .card-one .card-footer1S h5 {
+  color: #ae2934;
+  margin: 25px;
+}
+.call-US .card-one .card-footer1S a i {
+  font-size: 40px;
+  margin: 5px;
+}
+.call-US .card-one .body .card-form {
+  padding: 4px;
+}
+.call-US .card-one .body .card-form button {
+  width: 100%;
+  background-color: #2d3e50;
+  margin-top: -10px;
+  margin-bottom: 6px;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.call-US .card-one .body .card-form button:hover {
+  background-color: #212d3b;
+}
+/* End CallUS */
+.signup {
+  background-color: #fff;
+  border: 1px solid #f0f0f0;
+  padding: 17px;
+  margin: 2% 13%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 1px rgba(166, 166, 166, 0.41);
+}
+.signup button {
+  width: 35%;
+  background-color: green;
+  color: #fff;
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+.signup button:hover {
+  background-color: darkgreen;
+  color: #fff;
+}
+/* start donationInfo */
+.donationInfo {
+  background-color: #fff;
+  border: 1px solid #f0f0f0;
+  padding: 17px;
+  margin: 2% 13%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 1px rgba(166, 166, 166, 0.41);
+}
+.donationInfo .headofDiv .input-group-text {
+  background-color: #cbcdce;
+}
+.donationInfo .headofDiv button {
+  margin: auto;
+  color: #fff;
+  background-color: #2d3e50;
+  width: 30%;
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+.donationInfo .headofDiv button:hover {
+  color: #fff;
+  background-color: #1a1f25;
+}
+.donationInfo .paragraph {
+  border: 1px solid #f0f0f0;
+  padding: 10px;
+  margin: 10px 0px;
+  font-size: 21px;
+  color: #2d3e50;
+  text-align: right;
+}
+#map {
+  height: 300px;
+  width: 100%;
+}
+/* End donationInfo */
+/* start ArticleDetails */
+.ArticleDetail {
+  padding: 17px;
+  margin: 2% 13%;
+}
+.ArticleDetail img {
+  width: 50%;
+}
+.ArticleDetail .card-two {
+  margin-top: 20px;
+}
+.ArticleDetail .card-two .card-header {
+  color: #fff;
+  background-color: #212d3b;
+  font-size: 20px;
+}
+.ArticleDetail .card-two .card-header span:nth-child(1) {
+  float: right;
+}
+.ArticleDetail .card-two .card-header span:nth-child(2) {
+  padding: 7px 10px;
+  cursor: pointer;
+}
+.ArticleDetail .card-two .card-header .like .red {
+  color: #ae2934;
+}
+.ArticleDetail .card-two .card-body {
+  color: #2d3e50;
+  background-color: #fff;
+  font-weight: 600;
+  margin-top: 13px;
+  padding: 13px;
+  border: 1px solid #f0f0f0;
+}
+.ArticleDetail .relativeArticle {
+  margin-top: 15px;
+}
+.ArticleDetail .relativeArticle span:nth-child(1) {
+  text-align: right;
+  color: #ae2934;
+}
+.ArticleDetail .relativeArticle span:nth-child(1) hr {
+  width: 216px;
+  margin-left: 80%;
+  margin-top: 0rem;
+  border: 1px solid #ae2934;
+  background-color: #ae2934;
+}
+/* End ArticleDetails */
+/* Start Responsive */
+@media (min-width: 250px) and (max-width: 392.98px) {
+  .upper-bar .center-side {
+    text-align: left;
+  }
+  .upper-bar .center-side span a i {
+    font-size: 14px;
+    margin-right: 6px;
+  }
+  .upper-bar .left-side {
+    font-size: 10px;
+  }
+  .navbar .navbar-brand img {
+    float: right;
+  }
+  .navbar ul li a {
+    font-size: 12px;
+    padding: 3px;
+    margin-bottom: 8px;
+  }
+  .navbar-light .navbar-toggler {
+    margin: auto;
+    margin-bottom: 5px;
+  }
+  .carousel-indicators li {
+    display: none;
+  }
+  .carousel-caption {
+    right: 2%;
+    top: -9%;
+    left: 15%;
+  }
+  .carousel-caption h5 {
+    font-size: 7px;
+  }
+  .carousel-caption p {
+    max-width: 111px;
+    font-size: 7px;
+    left: 49%;
+    position: relative;
+  }
+  .carousel-caption a {
+    padding: 0px 17px;
+    font-size: 7px;
+    position: relative;
+    bottom: 16px;
+  }
+  .about-us {
+    background-size: contain;
+    padding: 21px;
+  }
+  .about-us p {
+    font-size: 7px;
+    text-align: right;
+    position: relative;
+    left: 28px;
+    bottom: 5px;
+    max-width: 110px;
+  }
+  .article h2 {
+    font-size: 15px;
+  }
+  .article hr {
+    width: 48px;
+  }
+  .call-us {
+    background-size: cover;
+    padding: 64px;
+  }
+  .call-us h2 {
+    font-size: 21px;
+  }
+  .call-us h5 {
+    color: #242d35;
+    margin: 14px 0px;
+  }
+  .call-us .whats-app {
+    width: 87%;
+    height: 23px;
+  }
+  .call-us .whats-app h6 {
+    float: right;
+    font-size: 8px;
+    position: relative;
+    top: 7px;
+    right: 6%;
+  }
+  .call-us .whats-app img {
+    width: 30%;
+    position: relative;
+    right: 12px;
+    top: unset;
+  }
+  .bloodBank-app {
+    background-size: cover;
+    padding: 13px;
+  }
+  .bloodBank-app .text h2 {
+    font-size: 11px;
+  }
+  .bloodBank-app .text p {
+    font-size: 8px;
+    margin-top: 24px;
+    line-height: 1.5;
+  }
+  .bloodBank-app a img {
+    width: 30%;
+  }
+  .bloodBank-app .app-photo {
+    margin-top: 40px;
+  }
+  .bloodBank-app .app-photo img {
+    width: 47%;
+  }
+  /*end home Page*/
+  .page-info {
+    padding: 0px 0px 5px;
+    margin: 5% 3%;
+  }
+  .page-info a {
+    font-size: 11px;
+  }
+  .ArticleDetail {
+    padding: 0px;
+    margin: 2% 0%;
+  }
+  .ArticleDetail img {
+    width: 100%;
+  }
+  .ArticleDetail .card-two .card-header {
+    font-size: 13px;
+  }
+  .ArticleDetail .card-two .card-body {
+    font-size: 12px;
+  }
+  .ArticleDetail .relativeArticle span:nth-child(1) h2 {
+    font-size: 20px;
+  }
+  .ArticleDetail .relativeArticle span:nth-child(1) hr {
+    width: 60%;
+  }
+  .footer-one {
+    padding: 50px 0px 5px;
+  }
+  .footer-one img {
+    width: 80%;
+  }
+  .footer-one ol {
+    float: right;
+    font-size: 11px;
+    position: relative;
+    margin-left: 1rem;
+  }
+  .footer-two {
+    padding: 2px;
+  }
+  .footer-two .icon {
+    float: none;
+  }
+  .footer-two a i {
+    font-size: 13px;
+    margin-right: 13px;
+  }
+  .footer-two h6 {
+    font-size: 10px;
+    float: none;
+  }
+  .aboutUs-article p {
+    font-size: 16px;
+  }
+  .call-US .card-one .card-header {
+    color: #fff;
+    background-color: #2d3e50;
+    font-size: 12px;
+  }
+  .call-US .card-one .body ul {
+    font-size: 9px;
+  }
+  .call-US .card-one .card-footer1S h5 {
+    margin: 11px;
+    font-size: 15px;
+  }
+  .call-US .card-one .card-footer1S a i {
+    font-size: 12px;
+  }
+  .call-US .card-one .body .card-form button {
+    font-size: 11px;
+  }
+  .call-US .card-one {
+    margin-top: 20px;
+  }
+  .donation-order-header {
+    top: 18px;
+    padding: 17px;
+    margin: 2% 13%;
+  }
+  .donation-header h2 {
+    font-size: 12px;
+    left: 10px;
+    position: relative;
+  }
+  .donation-header hr {
+    width: 84px;
+  }
+  .donation-order {
+    margin-top: 0px;
+    padding: 16px;
+    margin: unset;
+  }
+  .donation .form-group {
+    margin-right: 42px;
+    margin-top: 4px;
+  }
+  .donation .form-group .form-control {
+    height: calc(2.5em + 0.75rem + -10px);
+    width: 144px;
+    font-size: 10px;
+  }
+  .donation .form-group .one {
+    margin-right: 0px;
+    margin-top: 8px;
+  }
+  .donation i {
+    position: relative;
+    padding: 7px;
+    float: none;
+    margin-right: unset;
+    font-size: 10px;
+    bottom: 13px;
+  }
+  .donation .one {
+    height: calc(-0.5em + -0.25rem + 75px);
+    font-size: 30px;
+    width: 245px;
+  }
+  .donation .one ol li span {
+    font-size: 7px;
+    margin-left: 5px;
+    margin-right: 2px;
+  }
+  .donation ol {
+    font-size: 7px;
+    line-height: 15px;
+    right: unset;
+    top: 10%;
+  }
+  .donation .Dbtn {
+    font-size: 6px;
+    top: -51px;
+    padding: 8px 13px;
+    left: -4%;
+  }
+  .donation .primary-button {
+    font-size: 9px;
+    padding: 3px 29px;
+  }
+  .donation .one .blood-kind {
+    padding: 11px 15px;
+    font-size: 19px;
+    margin-top: 3px;
+    margin-right: -7%;
+  }
+  .donation .one .two {
+    padding: 11px 10px;
+  }
+  .donation-order .pagination .page-item a {
+    font-size: 13px;
+    padding: 6px;
+  }
+  .donationInfo .headofDiv .input-group-text {
+    font-size: 12px;
+  }
+  .donationInfo {
+    padding: 7px;
+    margin: 2% 0%;
+  }
+  .donationInfo .headofDiv button {
+    font-size: 13px;
+  }
+  .donationInfo .paragraph {
+    border: 1px solid #f0f0f0;
+    padding: 10px;
+    margin: 10px 0px;
+    font-size: 12px;
+  }
+  .signup {
+    padding: 17px;
+    margin: 5% 0%;
+  }
+  .signup button {
+    font-size: 13px;
+  }
+  .sign-in {
+    margin: 2% 0%;
+    padding: 0px 5px 70px;
+  }
+  .sign-in form .form-control {
+    font-size: 13px;
+  }
+  .sign-in form button {
+    width: 45%;
+    font-size: 13px;
+  }
+}
+@media (min-width: 392.99px) and (max-width: 575.98px) {
+  .upper-bar .center-side {
+    text-align: left;
+  }
+  .upper-bar .center-side span a i {
+    font-size: 20px;
+  }
+  .upper-bar .left-side {
+    font-size: 15px;
+  }
+  .carousel-indicators li {
+    display: none;
+  }
+  .carousel-caption {
+    right: 2%;
+    top: 6%;
+    left: 16%;
+  }
+  .carousel-caption h5 {
+    font-size: 13px;
+  }
+  .carousel-caption p {
+    max-width: 141px;
+    font-size: 12px;
+    left: 61%;
+    position: relative;
+  }
+  .carousel-caption p {
+    max-width: 141px;
+    font-size: 12px;
+    left: 61%;
+    position: relative;
+  }
+  .about-us {
+    background-size: contain;
+    padding: 21px;
+  }
+  .about-us p {
+    font-size: 11px;
+    text-align: right;
+    position: relative;
+    left: 24px;
+    bottom: 5px;
+    max-width: 193px;
+  }
+  .article h2 {
+    font-size: 15px;
+  }
+  .article hr {
+    width: 48px;
+  }
+  .donation {
+    margin-top: 100px;
+    padding: 0px 22px 4px;
+  }
+  .call-us {
+    background-size: cover;
+    padding: 64px;
+  }
+  .call-us h2 {
+    font-size: 21px;
+  }
+  .call-us h5 {
+    color: #242d35;
+    margin: 14px 0px;
+  }
+  .call-us .whats-app {
+    width: 29%;
+    height: 23px;
+  }
+  .call-us .whats-app h6 {
+    float: right;
+    font-size: 8px;
+    position: relative;
+    top: 7px;
+    right: 6%;
+  }
+  .call-us .whats-app img {
+    width: 30%;
+    position: relative;
+    right: 12px;
+    top: unset;
+  }
+  .bloodBank-app {
+    background-size: cover;
+    padding: 13px;
+  }
+  .bloodBank-app .text h2 {
+    font-size: 14px;
+  }
+  .bloodBank-app .text p {
+    font-size: 13px;
+    margin-top: 24px;
+    line-height: 1.5;
+  }
+  .bloodBank-app a img {
+    width: 30%;
+  }
+  .bloodBank-app .app-photo {
+    margin-top: 40px;
+  }
+  .bloodBank-app .app-photo img {
+    width: 47%;
+  }
+  .donation .primary-button {
+    font-size: 9px;
+    padding: 3px 29px;
+  }
+  /*end home Page*/
+  .page-info {
+    padding: 3px;
+  }
+  .page-info a {
+    font-size: 17px;
+  }
+  .ArticleDetail img {
+    width: 100%;
+  }
+  .ArticleDetail .card-two .card-header {
+    font-size: 17px;
+  }
+  .ArticleDetail .relativeArticle span:nth-child(1) hr {
+    width: 139px;
+  }
+  .ArticleDetail .relativeArticle span:nth-child(1) h2 {
+    font-size: 20px;
+  }
+  .footer-two .icon {
+    float: none;
+  }
+  .footer-two h6 {
+    float: none;
+  }
+  .aboutUs-article p {
+    font-size: 20px;
+  }
+  .call-US .card-one {
+    margin-top: 20px;
+  }
+  .donation-order-header {
+    top: 20px;
+    padding: 17px;
+    margin: 2% 13%;
+  }
+  .donation-header h2 {
+    font-size: 18px;
+  }
+  .donation-header hr {
+    width: 84px;
+  }
+  .donation-order {
+    margin-top: 0px;
+    padding: 16px;
+    margin: 2% 13%;
+  }
+  .donation .form-group {
+    margin: 44px;
+    margin-top: 2px;
+  }
+  .donation .form-group .form-control {
+    height: calc(2.5em + 0.75rem + -10px);
+    width: 144px;
+    font-size: 10px;
+  }
+  .donation .form-group .one {
+    margin-right: 0px;
+    margin-top: 8px;
+  }
+  .donation i {
+    padding: 7px;
+    float: none;
+    margin-right: unset;
+    font-size: 10px;
+  }
+  .donation .one {
+    height: calc(-0.5em + -0.25rem + 75px);
+    font-size: 30px;
+  }
+  .donation .one ol li span {
+    font-size: 9px;
+    margin-left: 5px;
+    margin-right: 2px;
+  }
+  .donation ol {
+    font-size: 9px;
+    line-height: 15px;
+    right: unset;
+    top: 10%;
+  }
+  .donation .Dbtn {
+    font-size: 7px;
+    top: -51px;
+    padding: 7px 15px;
+    left: 0%;
+  }
+  .donation .one .blood-kind {
+    padding: 11px 15px;
+    font-size: 19px;
+    margin-top: 3px;
+    margin-right: -6%;
+  }
+  .donation .one .two {
+    padding: 11px 10px;
+  }
+  .donation-order .pagination .page-item a {
+    font-size: 13px;
+    padding: 6px;
+  }
+  .donationInfo .headofDiv .input-group-text {
+    font-size: 12px;
+  }
+  .donationInfo {
+    padding: 7px;
+    margin: 2% 0%;
+  }
+  .donationInfo .headofDiv button {
+    font-size: 13px;
+  }
+  .donationInfo .paragraph {
+    border: 1px solid #f0f0f0;
+    padding: 10px;
+    margin: 10px 0px;
+    font-size: 15px;
+  }
+  .signup {
+    padding: 17px;
+    margin: 5% 0%;
+  }
+  .signup button {
+    font-size: 13px;
+  }
+  .sign-in {
+    margin: 2% 0%;
+    padding: 0px 5px 70px;
+  }
+  .sign-in form .form-control {
+    font-size: 13px;
+  }
+  .sign-in form button {
+    width: 45%;
+    font-size: 13px;
+  }
+}
+@media (min-width: 575.99px) and (max-width: 767.98px) {
+  .upper-bar .left-side {
+    font-size: 12px;
+  }
+  .upper-bar .center-side span a i {
+    font-size: 15px;
+  }
+  .carousel-indicators li {
+    display: none;
+  }
+  .carousel-caption {
+    right: 2%;
+    top: 6%;
+    left: 16%;
+  }
+  .carousel-caption h5 {
+    font-size: 15px;
+  }
+  .carousel-caption p {
+    max-width: 184px;
+    font-size: 13px;
+    left: 61%;
+    position: relative;
+  }
+  .carousel-caption a {
+    padding: 1px 39px;
+    font-size: 14px;
+  }
+  .carousel-caption p {
+    max-width: 141px;
+    font-size: 12px;
+    left: 61%;
+    position: relative;
+  }
+  .about-us {
+    background-size: contain;
+    padding: 21px;
+  }
+  .about-us p {
+    font-size: 14px;
+    text-align: right;
+    position: relative;
+    left: 24px;
+    bottom: 5px;
+    max-width: 248px;
+  }
+  .article h2 {
+    font-size: 15px;
+  }
+  .article hr {
+    width: 48px;
+  }
+  .donation {
+    margin-top: 100px;
+    padding: 0px 22px 13px;
+  }
+  .call-us {
+    background-size: cover;
+    padding: 64px;
+  }
+  .call-us h2 {
+    font-size: 21px;
+  }
+  .call-us h5 {
+    color: #242d35;
+    margin: 14px 0px;
+  }
+  .call-us .whats-app {
+    width: 31%;
+    height: 23px;
+  }
+  .call-us .whats-app h6 {
+    float: right;
+    font-size: 13px;
+    position: relative;
+    top: 5px;
+    right: 6%;
+  }
+  .call-us .whats-app img {
+    width: 22%;
+    position: relative;
+    right: 12px;
+    top: unset;
+  }
+  .bloodBank-app {
+    background-size: cover;
+    padding: 13px;
+  }
+  .bloodBank-app .text h2 {
+    font-size: 20px;
+  }
+  .bloodBank-app .text p {
+    font-size: 19px;
+    margin-top: 24px;
+    line-height: 1.5;
+  }
+  .bloodBank-app a img {
+    width: 30%;
+  }
+  .bloodBank-app .app-photo {
+    margin-top: 75px;
+  }
+  .bloodBank-app .app-photo img {
+    width: 47%;
+  }
+  .donation .primary-button {
+    font-size: 9px;
+    padding: 3px 29px;
+  }
+  /*end home Page*/
+
+  .page-info {
+    padding: 5px;
+    margin: 2% 19%;
+  }
+  .page-info a {
+    font-size: 18px;
+  }
+  .ArticleDetail img {
+    width: 70%;
+  }
+  .ArticleDetail .card-two .card-header {
+    font-size: 17px;
+  }
+  .ArticleDetail .relativeArticle span:nth-child(1) h2 {
+    font-size: 20px;
+  }
+  .ArticleDetail .relativeArticle span:nth-child(1) hr {
+    width: 27%;
+  }
+  .footer-one ol .one {
+    margin-top: 35px;
+  }
+  .footer-one ol .marg {
+    margin-bottom: 42px;
+  }
+  .footer-two .icon {
+    float: none;
+  }
+  .footer-two h6 {
+    font-size: 16px;
+    float: none;
+  }
+  .call-US .card-one .body ul {
+    font-size: 16px;
+  }
+  .call-US .card-one .card-footer1S a i {
+    font-size: 25px;
+  }
+  .donation-order-header {
+    top: 23px;
+    padding: 17px;
+    margin: 2% 13%;
+  }
+  .donation-header h2 {
+    font-size: 24px;
+  }
+  .donation-header hr {
+    width: 121px;
+  }
+  .donation-order {
+    margin-top: 0px;
+    padding: 16px;
+    margin: 2% 6%;
+  }
+  .donation .form-group {
+    margin: 138px;
+    margin-top: 1px;
+    margin-bottom: 0px;
+  }
+  .donation .form-group .form-control {
+    height: calc(2.5em + 0.75rem + -10px);
+    width: 218px;
+    font-size: 15px;
+  }
+  .donation .form-group .one {
+    margin-right: 0px;
+    margin-top: 8px;
+  }
+  .donation i {
+    padding: 7px;
+    float: none;
+    margin-right: unset;
+    font-size: 12px;
+  }
+  .donation .one {
+    height: calc(0.5em + -0.25rem + 70px);
+    font-size: 30px;
+  }
+  .donation .one ol li span {
+    font-size: 15px;
+    margin-left: 13px;
+    margin-right: 6px;
+  }
+  .donation ol {
+    font-size: 14px;
+    line-height: 23px;
+    right: unset;
+    top: 10%;
+  }
+  .donation button {
+    font-size: 13px;
+    top: -63px;
+    padding: 9px 30px;
+    left: 2%;
+  }
+  .donation .one .blood-kind {
+    padding: 11px 19px;
+    font-size: 36px;
+    margin-top: 3px;
+    margin-right: -3%;
+  }
+  .donation .one .two {
+    padding: 11px 10px;
+  }
+  .donation-order .pagination .page-item a {
+    font-size: 13px;
+    padding: 6px;
+  }
+  .donationInfo .headofDiv .input-group-text {
+    font-size: 12px;
+  }
+  .donationInfo {
+    padding: 25px;
+    margin: 2% 9%;
+  }
+  .donationInfo .headofDiv button {
+    font-size: 13px;
+  }
+  .donationInfo .paragraph {
+    border: 1px solid #f0f0f0;
+    padding: 10px;
+    margin: 10px 0px;
+    font-size: 20px;
+  }
+  .sign-in {
+    margin: 2% 18%;
+    padding: 0px 9px 29px;
+  }
+  .sign-in form .form-control {
+    font-size: 13px;
+  }
+  .sign-in form button {
+    width: 45%;
+    font-size: 13px;
+  }
+}
+@media (min-width: 767.99px) and (max-width: 992.98px) {
+  .navbar .other-button {
+    max-height: 36px;
+    font-size: 15px;
+  }
+  .navbar ul li a {
+    font-size: 15px;
+    padding: 5px;
+  }
+  .navbar .other-button img {
+    bottom: 9px;
+  }
+
+  .carousel-indicators li {
+    display: none;
+  }
+  .carousel-caption {
+    right: 2%;
+    top: 6%;
+    left: 16%;
+  }
+  .carousel-caption h5 {
+    font-size: 21px;
+  }
+  .carousel-caption p {
+    max-width: 245px;
+    font-size: 19px;
+    left: 61%;
+    position: relative;
+  }
+  .carousel-caption a {
+    padding: 1px 39px;
+    font-size: 14px;
+  }
+  .about-us {
+    background-size: contain;
+    padding: 21px;
+  }
+  .about-us p {
+    font-size: 14px;
+    text-align: right;
+    position: relative;
+    left: 24px;
+    bottom: 5px;
+    max-width: 248px;
+  }
+  .article h2 {
+    font-size: 15px;
+  }
+  .article hr {
+    width: 48px;
+  }
+  .donation {
+    margin-top: 100px;
+    padding: 0px 22px 13px;
+  }
+  .call-us {
+    background-size: cover;
+    padding: 64px;
+  }
+  .call-us h2 {
+    font-size: 21px;
+  }
+  .call-us h5 {
+    color: #242d35;
+    margin: 14px 0px;
+  }
+  .call-us .whats-app {
+    width: 36%;
+    height: 36px;
+  }
+  .call-us .whats-app h6 {
+    float: right;
+    font-size: 18px;
+    position: relative;
+    top: 7px;
+    right: 6%;
+  }
+  .call-us .whats-app img {
+    width: 21%;
+    position: relative;
+    right: 12px;
+    top: unset;
+  }
+  .bloodBank-app {
+    background-size: cover;
+    padding: 13px;
+  }
+  .bloodBank-app .text {
+    text-align: right;
+    top: unset;
+    position: relative;
+  }
+  .bloodBank-app .text h2 {
+    font-size: 20px;
+  }
+  .bloodBank-app .text p {
+    font-size: 19px;
+    margin-top: 24px;
+    line-height: 1.5;
+  }
+  .bloodBank-app a img {
+    width: 30%;
+  }
+  .bloodBank-app .app-photo {
+    margin-top: unset;
+  }
+  .bloodBank-app .app-photo img {
+    width: 84%;
+  }
+  .donation .primary-button {
+    font-size: 9px;
+    padding: 3px 29px;
+  }
+  /*end home Page*/
+
+  .call-US .card-one .body ul {
+    font-size: 16px;
+  }
+  .call-US .card-one .card-footer1S a i {
+    font-size: 25px;
+  }
+  .donation-order-header {
+    top: 27px;
+    padding: 17px;
+    margin: 2% 13%;
+  }
+  .donation-header h2 {
+    font-size: 24px;
+    position: relative;
+    right: 16px;
+  }
+  .donation-header hr {
+    width: 121px;
+  }
+  .donation-order {
+    margin-top: 0px;
+    padding: 16px;
+    margin: 2% 6%;
+  }
+  .donation .form-group {
+    margin: 55px;
+    margin-top: 1px;
+    margin-bottom: 0px;
+  }
+  .donation .form-group .form-control {
+    height: calc(2.5em + 0.75rem + -10px);
+    width: 218px;
+    font-size: 15px;
+  }
+  .donation .form-group .one {
+    margin-right: 0px;
+    margin-top: 0px;
+  }
+  .donation i {
+    padding: 7px;
+    float: none;
+    margin-right: 18px;
+    margin-top: 6px;
+    font-size: 13px;
+  }
+  .donation .one {
+    height: calc(0.5em + -0.25rem + 70px);
+    font-size: 30px;
+  }
+  .donation .one ol li span {
+    font-size: 15px;
+    margin-left: 13px;
+    margin-right: 6px;
+  }
+  .donation ol {
+    font-size: 14px;
+    line-height: 23px;
+    right: unset;
+    top: 10%;
+  }
+  .donation button {
+    font-size: 13px;
+    top: -63px;
+    padding: 9px 30px;
+    left: 2%;
+  }
+  .donation .one .blood-kind {
+    padding: 11px 19px;
+    font-size: 36px;
+    margin-top: 3px;
+    margin-right: -2%;
+  }
+  .donation .one .two {
+    padding: 11px 10px;
+  }
+  .donation-order .pagination .page-item a {
+    font-size: 13px;
+    padding: 6px;
+  }
+  .sign-in {
+    margin: 2% 18%;
+    padding: 0px 9px 29px;
+  }
+  .sign-in form .form-control {
+    font-size: 19px;
+  }
+  .sign-in form button {
+    width: 48%;
+    font-size: 19px;
+  }
+}
+@media (min-width: 992.99px) and (max-width: 1199.98px) {
+  .navbar .other-button {
+    max-height: 36px;
+    font-size: 15px;
+  }
+  .navbar ul li a {
+    font-size: 15px;
+    padding: 5px;
+  }
+  .navbar .other-button img {
+    bottom: 9px;
+  }
+
+  .carousel-indicators li {
+    display: none;
+  }
+  .carousel-caption {
+    right: 2%;
+    top: 6%;
+    left: 16%;
+  }
+  .carousel-caption h5 {
+    font-size: 25px;
+  }
+  .carousel-caption p {
+    max-width: 410px;
+    font-size: 26px;
+    left: 50%;
+    position: relative;
+  }
+  .carousel-caption a {
+    padding: 2px 45px;
+    font-size: 19px;
+  }
+  .about-us {
+    background-size: contain;
+    padding: 21px;
+  }
+  .about-us p {
+    font-size: 22px;
+    text-align: right;
+    position: relative;
+    left: 24px;
+    bottom: 5px;
+    max-width: 343px;
+  }
+  .article h2 {
+    font-size: 15px;
+  }
+  .article hr {
+    width: 48px;
+  }
+  .donation {
+    margin-top: 100px;
+    padding: 0px 22px 13px;
+  }
+  .call-us {
+    background-size: cover;
+    padding: 64px;
+  }
+  .call-us h2 {
+    font-size: 21px;
+  }
+  .call-us h5 {
+    margin: 14px 0px;
+  }
+  .call-us .whats-app {
+    width: 36%;
+    height: 36px;
+  }
+  .call-us .whats-app h6 {
+    float: right;
+    font-size: 18px;
+    position: relative;
+    top: 7px;
+    right: 6%;
+  }
+  .call-us .whats-app img {
+    width: 21%;
+    position: relative;
+    right: 12px;
+    top: unset;
+  }
+  .bloodBank-app {
+    background-size: cover;
+    padding: 13px;
+  }
+  .bloodBank-app .text {
+    text-align: right;
+    top: unset;
+    position: relative;
+  }
+  .bloodBank-app .text h2 {
+    font-size: 20px;
+  }
+  .bloodBank-app .text p {
+    font-size: 19px;
+    margin-top: 24px;
+    line-height: 1.5;
+  }
+  .bloodBank-app a img {
+    width: 30%;
+  }
+  .bloodBank-app .app-photo {
+    margin-top: unset;
+  }
+  .bloodBank-app .app-photo img {
+    width: 84%;
+  }
+  .donation .primary-button {
+    font-size: 16px;
+    padding: 3px 44px;
+  }
+  /*end home Page*/
+
+  .donation-order-header {
+    top: 31px;
+    padding: 17px;
+    margin: 2% 13%;
+  }
+  .donation-header h2 {
+    font-size: 24px;
+    margin-left: 5%;
+  }
+  .donation-header hr {
+    width: 121px;
+  }
+  .donation-order {
+    margin-top: 0px;
+    padding: 16px;
+    margin: 2% 12%;
+  }
+  .donation .form-group {
+    margin: 137px;
+    margin-top: 1px;
+    margin-bottom: 0px;
+  }
+  .donation .form-group .form-control {
+    height: calc(2.5em + 0.75rem + -10px);
+    width: 218px;
+    font-size: 15px;
+  }
+  .donation .form-group .one {
+    margin-right: 0px;
+    margin-top: 0px;
+  }
+  .donation i {
+    padding: 7px;
+    float: none;
+    margin-right: 18px;
+    margin-top: 6px;
+    font-size: 13px;
+  }
+  .donation .one {
+    height: calc(0.5em + -0.25rem + 70px);
+    font-size: 30px;
+  }
+  .donation .one ol li span {
+    font-size: 15px;
+    margin-left: 13px;
+    margin-right: 6px;
+  }
+  .donation ol {
+    font-size: 14px;
+    line-height: 23px;
+    right: unset;
+    top: 10%;
+  }
+  .donation button {
+    font-size: 13px;
+    top: -63px;
+    padding: 9px 30px;
+    left: 2%;
+  }
+  .donation .one .blood-kind {
+    padding: 11px 19px;
+    font-size: 36px;
+    margin-top: 3px;
+    margin-right: -2%;
+  }
+  .donation .one .two {
+    padding: 11px 10px;
+  }
+  .donation-order .pagination .page-item a {
+    font-size: 13px;
+    padding: 6px;
+  }
+  .sign-in {
+    margin: 2% 13%;
+    padding: 0px 9px 29px;
+  }
+  .sign-in form .form-control {
+    font-size: 19px;
+  }
+  .sign-in form button {
+    width: 48%;
+    font-size: 19px;
+  }
+}
+@media (min-width: 1200px) {
+  .donation-order-header {
+    top: 42px;
+  }
+  .donation-order {
+    padding: 16px;
+  }
+  .donation .form-group {
+    margin: 0px;
+    margin-right: 102px;
+  }
+  .donation .form-group .one {
+    margin-right: 0px;
+    margin-top: 0px;
+  }
+  .donation i {
+    float: none;
+    margin-right: 50px;
+  }
+  .donation .one ol li span {
+    font-size: 19px;
+  }
+}
+/* End Responsive */
